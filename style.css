@@ -1,0 +1,53 @@
+
+header{
+ width: 100%;
+ background: #006400;
+ height: 100px;
+}
+
+body {
+background-image:  url(https://avatanplus.com/files/resources/mid/57c0c0925bd44156c8f03bc8.png);  
+background-attachment: fixed; 
+font-size:18px;
+}
+
+A {
+color: black; 
+   }
+A:visited {
+color: #006400;
+   }
+A:active {
+color: #008080; 
+   }
+
+H1 {
+font-family: Arial;
+font-size: 500%;
+font-weight: bolder;
+}
+
+H2 {
+font-family: Arial;
+font-size: 150%;
+font-weight: bolder;
+font-style: italic;
+}
+
+nav {
+    width: 960px;
+    position: relative;
+    margin: 0 auto;
+}
+nav ul {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+nav li {
+    float:left;
+font-family: Arial;
+font-size: 200%;
+font-weight: bolder;
+}
+}
